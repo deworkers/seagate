@@ -6,7 +6,7 @@
             </header>
         <div>
             <h1 class="promo-title">Прими участие в розыгрыше и получи уникальную возможность выиграть персональное хранилище данных!</h1>
-            <div class="promo-block">
+            <div class="promo-block promo-block--shadow">
                 <div class="block-title">
                     <h2>
                     Lacie Rugged™ USB-C
@@ -30,7 +30,7 @@
                     Дизайнер: Нил Поултон (Neil Poulton)
                 </p>
             </div>
-            <div class="promo-block">
+            <div class="promo-block promo-block--shadow">
                 <div class="block-title fly-drive">
                     <h2>
                         Seagate DJI Fly Drive
@@ -69,13 +69,23 @@
             <form class="question-form">
                 <div class="form-block-left">
                     <input class="form-block-in" type="text" name="name" placeholder="Имя">
-                    <input class="form-block-in" type="number" name="phone" placeholder="Мобильный телефон">
+                    <input class="form-block-in" type="text" name="phone" placeholder="Мобильный телефон">
                     <input class="form-block-in" type="text" name="surname" placeholder="Фамилия">
                 </div>
                 <div class="form-block-right">
                     <input class="form-block-in" type="text" name="company" placeholder="Компания">
                     <input class="form-block-in" type="text" name="patronymic" placeholder="Отчество">
                     <input class="form-block-in" type="text" name="company" placeholder="Должность">
+                </div>
+                <div class="form-personal">
+                    <input type="checkbox" id="personal-data" name="personal-data">
+                    <label for="personal-data">
+                        <div class="form-personal__top">Я согласен на обработку моих персональных данных</div>
+                        <div class="form-personal__bottom">Компания Seagate уважительно относится к праву участника на конфеденциальность и гарантирует, что полученная от Вас информация не будет передана третьим лицам.</div>
+                    </label>
+                </div>
+                <div class="form-bottom">
+                    <button class="order" type="submit">Отправить</button>
                 </div>
             </form>
 
